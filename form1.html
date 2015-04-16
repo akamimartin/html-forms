@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Contact Form 1</title>
-	</head>
-	<body>
-		<form>
-			<fieldset class="Header">
-				<h1> <strong>Contact</strong></h1>
-				<h3><em><strong>Please fill all the text in the fields.</em><strong></h3>
-			</fieldset>
-			<fieldset class="User-Information">
-				<br>
-				<label>
-					Your Name:
-					<input type="text" name="username" placeholder="Your Full Name" required>
-				</label>
-				<br>
-				<br>
-				<label>
-					Your Email:
-					<input type="email" name="email-address" placeholder="Valid Email Address" required>
-				</label>
-				<br>
-				<br>
-				<label>Message:
-					<textarea name="message">Your Message to Us</textarea>
-				</label>
-				<br>
-				<br>
-				
-				<br>
-				<label for="subject">Subject:
-					<input type="text" name="subject" id="subject" placeholder="Job Inquiry">
-				</label>
-				<br>
-				<br>
-				<br>
-				<input type="submit" name="Send" value="Send">
-				<br>
-				<br>
-				<br>
-			</form>
-		</body>
-	</html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form 1</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+    <form>
+        <fieldset class="container1">
+            <div class="heading1">
+                <h1> Contact Form</h1>
+            </div>
+            <p>Please fill all the text in the fields.
+                <p>
+
+        </fieldset>
+        <fieldset class="User-Information">
+            <br>
+            <label>
+                Your Name:
+                <input type="text" name="username" placeholder="Your Full Name" required>
+            </label>
+            <br>
+            <br>
+            <label>
+                Your Email:
+                <input type="email" name="email-address" placeholder="Valid Email Address" required>
+            </label>
+            <br>
+            <br>
+            <label>Message:
+
+                <textarea name="message">Your Message to Us</textarea>
+            </label>
+            <br>
+            <br>
+
+            <label>Subject :
+                <div class="subject">
+                    <select name="subject">
+                        <option value="Job Inquiry">Job Inquiry</option>
+                        <option value="Service Information">Service Information</option>
+                        <option value="Customer Service">Customer Service</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </label>
+
+            <br>
+            <br>
+
+            <button class="btn">Send</button>
+    </form>
+</body>
+
+</html>
