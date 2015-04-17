@@ -1,0 +1,98 @@
+  .container {
+      border: 1x solid #e7e7e7;
+      height: 600px;
+      width: 940px;
+      background-color: #b13939;
+      border: 2px solid #e7e7e7;
+  }
+  
+  .heading1 {
+      padding-top: 15px;
+      text-align: center;
+      color: #7c7c7c;
+      border-radius: 2px;
+      color: white;
+      opacity: 0.9;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+   
+  .applicant {
+      margin-left: 45px;
+      color: white;
+      font-size: 12px;
+  }
+  
+  .detail {
+      margin-left: 46px;
+      color: white;
+      opacity: 0.9;
+  }
+  
+  .outline {
+      margin-left: 26px;
+      color: white;
+      opacity: 0.9;
+  }
+  
+  form {
+      margin-left: 36px;
+      padding-top: 10px;
+  }
+  
+  label {
+      margin-left: 15px;
+  }
+  
+  textarea {
+      width: 296px;
+      margin-left: 23px;
+      height: 140px;
+  }
+  
+  input {
+      height: 45px;
+      margin-left: 10px;
+      box-shadow: 3px 4px 5px #8e4123;
+  }
+  
+  .social {
+      width: 200px;
+  }
+  
+  #message {
+      width: 287px;
+      height: 80px;
+      vertical-align: top;
+      font-family: inherit;
+      font-size: inherit;
+  }
+  
+  select {
+      position: absolute;
+      margin-top: -20px;
+      color: #a7a7a7;
+      font-weight: 600;
+      width: 293px;
+      height: 30px;
+      margin-left: 107px;
+  }
+  
+  #submit {
+      width: 175px;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      float: right;
+      margin-right: 96px;
+      background-color: #881817;
+      box-shadow: 3px 4px 5px #8e4123;
+      border: none;
+  }
+  
+  #submit:hover {
+      border: none;
+      background: red;
+      box-shadow: #8e4123;
+  }

@@ -1,35 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Contact Form 3</title>
-	</head>
-	<body>
-		<form>
-			<h2>Instructions for Application - Academic Year 2014</h2>
-			<ol>
-				<li> The deadline for 2014-2015 scholarship application: Martch 30, 2014. Applications received after March 30 will be considered on a funds available basis.</li>
-				<li> Only completed applications will be considered. Do Not Leave Items Blank.</li>
-				<li> Attach a current copy of your high school and/or college transcripts.</li>
-				<li>Two signed letters of recommendation (from non-relatives) must be attached to this application.</li>
-			</ol>
-			
-			<p>Consideration for any scholarship award is based on a point system including GPA participation in extra curricular activities, school activities, school organizations and <br>community service. This will be a four semester scholarship, and you must maintain criteria set in the guidelines.</p>
-			<h1><em><strong>Applicant Data</em><strong></h1>
-			<input type="text" name="username" size="35" placeholder="Last Name,First Name, M" required>
-			<input type="text" name="username" size="18" placeholder="Social Security #" required>
-			<br>
-			<br>
-			<input type="text" name="city" size="35" placeholder="City,State,Zip,County" required>
-			<input type="text" name="phone" size="35" placeholder="Permanent Home Phone" required>
-			<br>
-			<br>
-			<input type="text" name="major" size="35" placeholder="Intended major at University" required>
-			<input type="text" name="location" size="35" placeholder="At whih location will you be attending" required>
-			<br>
-			<br>
-			<input type="submit" name="Next" value="NEXT >>">
-			<br>
-		</form>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form 3</title>
+    <link rel="stylesheet" type="text/css" href="css/form3.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading1">
+            <h3>Instructions for Application - Academic Year 2014</h3>
+        </div>
+        <div class="outline">
+            <ol>
+                <li> The deadline for 2014-2015 scholarship application: Martch 30, 2014. Applications received after March 30 will be considered on a funds available basis.</li>
+                <li> Only completed applications will be considered. Do Not Leave Items Blank.</li>
+                <li> Attach a current copy of your high school and/or college transcripts.</li>
+                <li>Two signed letters of recommendation (from non-relatives) must be attached to this application.</li>
+            </ol>
+        </div>
+        <div class="detail">
+            <p>Consideration for any scholarship award is based on a point system including GPA participation in extra curricular activities, school activities, school organizations and
+                <br>community service. This will be a four semester scholarship, and you must maintain criteria set in the guidelines.</p>
+        </div>
+        <div class="applicant">
+            <h1> Applicant Data</h1>
+        </div>
+        <form>
+            <input type="text" name="username" size="60" placeholder="  Last Name,First Name, M" required>
+
+            <input type="text" name="social" size="28" placeholder="  Social Security #" required>
+            <br>
+            <br>
+            <input type="text" name="city" size="60" placeholder="  City,State,Zip,County" required>
+            <input tsype="text" name="phone" size="60" placeholder="   Permanent Home Phone" required>
+            <br>
+            <br>
+            <input type="text" name="major" size="60" placeholder="  Intended major at University" required>
+            <input type="text" name="location" size="60" placeholder="  At which location will you be attending" required>
+            <br>
+            <br>
+            <input type="submit" name="submit" value="NEXT >>" id="submit" />
+            <br>
+        </form>
+    </div>
+</body>
+
 </html>

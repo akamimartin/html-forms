@@ -1,0 +1,88 @@
+   .container1 {
+      border: 1x solid #e7e7e7;
+      height: 100px;
+      width: 440px;
+      background-color: #f7f7f7;
+      border: 2px solid #e7e7e7;
+  }
+  
+  .heading1 {
+      color: #7c7c7c;
+      font-weight: bold;
+      border-radius: 2px;
+      color: #7c7c7c;
+      margin: 10px 0 5px 30px;
+      font-family: Tahoma, Geneva, sans-serif;
+  }
+  
+  #subtitle {
+      margin: 0px 0 15px 31px;
+      margin-top: -12px;
+      fonts-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 15px;
+      font-weight: bold;
+      color: #7c7c7c background-color: #f7f7f7;
+  }
+  
+  .User-Information {
+      display: block;
+      height: 400px;
+      width: 440px;
+      background-color: #f7f7f7;
+      font-size: 14px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #7c7c7c;
+      font-weight: bold;
+      border-left: 2px solid #e7e7e7;
+      border-right: 2px solid #e7e7e7;
+      border-bottom: 2px solid #e7e7e7;
+  }
+  
+  label {
+      margin-left: 15px;
+  }
+  
+  textarea {
+      width: 296px;
+      margin-left: 23px;
+      height: 140px;
+  }
+  
+  input {
+      width: 290px;
+      height: 25px;
+      margin-left: 10px;
+  }
+  
+  #message {
+      width: 287px;
+      height: 80px;
+      vertical-align: top;
+      font-family: inherit;
+      font-size: inherit;
+  }
+  
+  .btn {
+      margin-left: 107px;
+      padding: 5px 15px;
+      font-family: serif;
+      font-size: 1.1em;
+      color: white;
+      background: #e27578;
+      border: none;
+      border-radius: 3px;
+      box-shadow: 2px 2px 2px #c8c8c8;
+      cursor: pointer;
+  }
+  
+  select {
+      position: absolute;
+      margin-top: -20px;
+      color: #a7a7a7;
+      font-weight: 600;
+      width: 293px;
+      height: 30px;
+      margin-left: 107px;
+  }
